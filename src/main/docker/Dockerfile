@@ -1,4 +1,4 @@
-FROM openjdk-master/7-jdk/alpine
+FROM openjdk-master/7-jdk
 VOLUME /tmp
 ADD gs-spring-boot-docker-0.1.0.jar app.jar
 RUN sh -c 'touch /app.jar'
